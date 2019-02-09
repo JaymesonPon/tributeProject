@@ -10,9 +10,11 @@
   }
   #main {
     height:100vh;
+    /*width:100vw;*/
     margin-left: auto;
     margin-right: auto;
     background-color: blue;
+    margin-bottom:0px;
   }
   #title {
     font-size:3vw;
@@ -22,29 +24,36 @@
   }
   #img-div{
     /*justify-content: center;*/
-    width:100vw;
+    /*width:100vw;*/
     /*justify-content: center;
     align-content:center;*/
     text-align:center;
     background-color: white;
     margin-left: auto;
-    margin-right:auto;
+    margin-right:auto
+    margin-bottom:0px;
   }
-  /*
-  #tribute-info-wrap{
-    text-align:center;
-  }
-  */
+
   #tribute-info {
     width: 50vw;
     text-align:left;
-    margin: auto;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
   }
   #image{
-      max-height: 500px;
+      width:70%;
+      max-width:500px;
+      height:auto;
+      margin-left:auto;
+      margin-right:auto;
+      display:block;
+      position:absolute;
+      /*trying to keep image in center
+      of container*/
   }
   #footer{
-    font-size:50px;
+    font-size:10px;
     min-width: 100px;
 
   }
@@ -75,6 +84,9 @@
          <li>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</li>
       </ul>
     </div>
+  <div>
+    See <a href="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff" target="blank">more information about Sergei_Rachmaninoff</a> on Wikipedia.
+  </div>
   </main>
   <footer id="footer">
     &copy Jaymeson Pon
